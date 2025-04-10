@@ -1,0 +1,1311 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 65305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55006
+-job-worker-count
+13
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39676]  Target information:
+
+Player connection [39676]  * "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 2768909954 [EditorId] 2768909954 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7GP6VA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [39676] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39676] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.7260
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003526 seconds.
+- Loaded All Assemblies, in  0.242 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.190 seconds
+Domain Reload Profiling: 430ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (84ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (80ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (166ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.394 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 727ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (114ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
+			BuildScriptInfoCaches (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (274ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3930 unused Assets / (2.9 MB). Loaded Objects now: 4505.
+Memory consumption went from 129.2 MB to 126.3 MB.
+Total: 5.375700 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.219900 ms MarkObjects: 3.427400 ms  DeleteObjects: 1.451000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22679.695514 seconds.
+  path: Assets/Assets/StoneUI/Buttons_256x256
+  artifactKey: Guid(da08987196581a74b8aecd156e379bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_256x256 using Guid(da08987196581a74b8aecd156e379bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e540e5f315b09e35445a93ca334cfc7') in 0.0030895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098919 seconds.
+  path: Assets/Assets/StoneUI/Buttons_256x256/button_moss_blue.png
+  artifactKey: Guid(64a7c8f38d213274f8f497bb697b41a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_256x256/button_moss_blue.png using Guid(64a7c8f38d213274f8f497bb697b41a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59d6e0ceb0466f169dd9fd10404b100c') in 0.1591989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/StoneUI/Buttons_256x256/button_rock_yellow.png
+  artifactKey: Guid(1d61b6b6ab998df4c84f4571a527df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_256x256/button_rock_yellow.png using Guid(1d61b6b6ab998df4c84f4571a527df9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e5d8a38d3a0e1fca21e29c4d01c87e2') in 0.0904767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.301070 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white
+  artifactKey: Guid(79ec90062c46ac34a834f3c2ffb5e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white using Guid(79ec90062c46ac34a834f3c2ffb5e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422b972ddb72f940ca0aa10bd1ee2c3e') in 0.0003854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096719 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white1.png
+  artifactKey: Guid(02749fc29af6913478776e4f8caf5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white1.png using Guid(02749fc29af6913478776e4f8caf5ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '309688187dce07ca351ca634661f7e79') in 0.0126597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white19.png
+  artifactKey: Guid(ed86a4cc1beb2ed41930dc10f1f35ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white19.png using Guid(ed86a4cc1beb2ed41930dc10f1f35ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7ff106b6250064f40663d7ea3fe2d13') in 0.0663028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white37.png
+  artifactKey: Guid(79137b2a84d2b434586eaa4b47751a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white37.png using Guid(79137b2a84d2b434586eaa4b47751a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2972d83d043de9066fcae62ea458dbb3') in 0.0854395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white29.png
+  artifactKey: Guid(ef926f2ac3fc4c249a0dbfe059209841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white29.png using Guid(ef926f2ac3fc4c249a0dbfe059209841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7c0bbc8096c1533b6e09fb34a642282') in 0.0085708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white14.png
+  artifactKey: Guid(b67d4ebd5d849d9458252166ea734d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white14.png using Guid(b67d4ebd5d849d9458252166ea734d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '816df03599d4baaeab913de5d571962c') in 0.0078524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white33.png
+  artifactKey: Guid(4930a2f1773ee8a4e81da5598f50c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white33.png using Guid(4930a2f1773ee8a4e81da5598f50c964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '341fbc5b5cbf85a708b96d10d4d9cba4') in 0.0076193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white45.png
+  artifactKey: Guid(b9090bf9cda4fd3438207e8599eda305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white45.png using Guid(b9090bf9cda4fd3438207e8599eda305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b88e64d6e76f7c1952fa1a7409aeb008') in 0.0093695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white35.png
+  artifactKey: Guid(a012dd7f6b5d9f141975d8a6753429e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white35.png using Guid(a012dd7f6b5d9f141975d8a6753429e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29cd9f10e5855f0ae6abea07dd3b8427') in 0.0091441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white34.png
+  artifactKey: Guid(20ff52ccd8c05ea4ba0fbe34fd1b8523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/Buttons_512x512/Rock_white/button_white34.png using Guid(20ff52ccd8c05ea4ba0fbe34fd1b8523) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32ee4fb668207eefd9a209aefe2ee9f9') in 0.0089334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.357 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3928 unused Assets / (2.8 MB). Loaded Objects now: 4515.
+Memory consumption went from 117.2 MB to 114.3 MB.
+Total: 5.048000 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.197800 ms MarkObjects: 3.205200 ms  DeleteObjects: 1.377300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 239.958001 seconds.
+  path: Assets/img
+  artifactKey: Guid(5cbcac59bf4f56b4b835b5eb44d0a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img using Guid(5cbcac59bf4f56b4b835b5eb44d0a02b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b9973486c648b6cd858341527864cc8') in 0.0048155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075330 seconds.
+  path: Assets/img/—Pngtree—board game ui cartoon button_5238858.png
+  artifactKey: Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/—Pngtree—board game ui cartoon button_5238858.png using Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09138a383f138e322a77f129c0f8b982') in 0.0373669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.352 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.305 seconds
+Domain Reload Profiling: 656ms
+	BeginReloadAssembly (112ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (71ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.8 MB). Loaded Objects now: 4554.
+Memory consumption went from 117.9 MB to 115.1 MB.
+Total: 5.514100 ms (FindLiveObjects: 0.304000 ms CreateObjectMapping: 0.259100 ms MarkObjects: 3.485900 ms  DeleteObjects: 1.464000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.924531 seconds.
+  path: Assets/img/—Pngtree—board game ui cartoon button_5238858.png
+  artifactKey: Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/—Pngtree—board game ui cartoon button_5238858.png using Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '098fcb3fd88b785255549681880bdd18') in 0.06286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.751114 seconds.
+  path: Assets/img/—Pngtree—board game ui cartoon button_5238858.png
+  artifactKey: Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/—Pngtree—board game ui cartoon button_5238858.png using Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dcd7f3dd3e1e72589a8f1a0b5776394') in 0.0426981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.145155 seconds.
+  path: Assets/img/—Pngtree—board game ui cartoon button_5238858.png
+  artifactKey: Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/—Pngtree—board game ui cartoon button_5238858.png using Guid(c948fb08c59fc3f40a4f960f342fd5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd7c9bd67b5c48e4643563f47758fab9') in 0.0214957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 670ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.7 MB). Loaded Objects now: 4556.
+Memory consumption went from 117.9 MB to 115.2 MB.
+Total: 4.598400 ms (FindLiveObjects: 0.371600 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.760000 ms  DeleteObjects: 1.373700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.347 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.305 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (168ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4556.
+Memory consumption went from 117.9 MB to 115.1 MB.
+Total: 5.138900 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.224000 ms MarkObjects: 3.087200 ms  DeleteObjects: 1.513700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.342 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 652ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.7 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.0 MB to 115.3 MB.
+Total: 4.260700 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.158800 ms MarkObjects: 2.710500 ms  DeleteObjects: 1.108600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 655ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (313ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (3.3 MB). Loaded Objects now: 4556.
+Memory consumption went from 117.9 MB to 114.7 MB.
+Total: 6.000500 ms (FindLiveObjects: 0.455900 ms CreateObjectMapping: 0.169800 ms MarkObjects: 3.818700 ms  DeleteObjects: 1.555000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.345 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 655ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.7 MB). Loaded Objects now: 4556.
+Memory consumption went from 117.9 MB to 115.3 MB.
+Total: 4.882300 ms (FindLiveObjects: 0.425300 ms CreateObjectMapping: 0.157000 ms MarkObjects: 2.830400 ms  DeleteObjects: 1.468900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.346 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.310 seconds
+Domain Reload Profiling: 656ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.4 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.0 MB to 115.6 MB.
+Total: 4.800800 ms (FindLiveObjects: 0.467900 ms CreateObjectMapping: 0.196200 ms MarkObjects: 3.096900 ms  DeleteObjects: 1.036200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 257.567748 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+
+  artifactKey: Guid(af8bb713ecdbbc146bada6ecefd75a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+ using Guid(af8bb713ecdbbc146bada6ecefd75a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64ba601a2c9b5a6036e286afb8bab517') in 0.0293335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065732 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button1.png
+  artifactKey: Guid(82f550d3253b3374eb66e9f07d8b27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button1.png using Guid(82f550d3253b3374eb66e9f07d8b27a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb89f595d3b1c875d334ea2880dd1511') in 0.0512424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button12.png
+  artifactKey: Guid(829ad12c453df2b4d965ba7c205a75ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button12.png using Guid(829ad12c453df2b4d965ba7c205a75ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c98ec147e217ea74b1b6208fb19389c') in 0.0106504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button71.png
+  artifactKey: Guid(76ff8c9d9170c9f4e955cdaf1f3fdc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button71.png using Guid(76ff8c9d9170c9f4e955cdaf1f3fdc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a54792b9c5c73ea193d23ebe7fe1fd8') in 0.0094624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button19.png
+  artifactKey: Guid(d114dc74df6bab34b9d46c0e1fe5d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button19.png using Guid(d114dc74df6bab34b9d46c0e1fe5d5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578d3a06f0f46107a24c34364f97ea6e') in 0.0097904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar18.png
+  artifactKey: Guid(c9556b427c2947d47b4de49b901e3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar18.png using Guid(c9556b427c2947d47b4de49b901e3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b8eccb95644c5c187135dcd98a744f1') in 0.011928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button10.png
+  artifactKey: Guid(e18cf561778f846418c4424d38413fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button10.png using Guid(e18cf561778f846418c4424d38413fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed8ea828c6179458de2aaac50344705') in 0.0097869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button30.png
+  artifactKey: Guid(0fb70a730df9a3940a6aa7ec9580f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button30.png using Guid(0fb70a730df9a3940a6aa7ec9580f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b35debff67e676fc7b05770537521b8a') in 0.0104041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button81.png
+  artifactKey: Guid(76585e1da260e4f4c9d1f145592296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button81.png using Guid(76585e1da260e4f4c9d1f145592296f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8714ad9410c06085210d769c84093599') in 0.0094613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button22.png
+  artifactKey: Guid(4bb8812f8e56cdc4f8405fd19ae1de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button22.png using Guid(4bb8812f8e56cdc4f8405fd19ae1de22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bfb701858b5e0047d22e5275b4d7f63') in 0.0102268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar4.png
+  artifactKey: Guid(771c5919b66eb604bb4c714e0763bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar4.png using Guid(771c5919b66eb604bb4c714e0763bf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bd33799ec5a82a69d192236e60ee28e') in 0.0088295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar1.png
+  artifactKey: Guid(b12da7e8275c011469926d0188d91bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar1.png using Guid(b12da7e8275c011469926d0188d91bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1cc4194be1c4553b4af18921f53737') in 0.0085708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar3.png
+  artifactKey: Guid(17c48bdb6e061c746bd30b15825918fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar3.png using Guid(17c48bdb6e061c746bd30b15825918fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a03b61a44b6bbb98b9d9b2eeb7fbdd71') in 0.0081205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar5.png
+  artifactKey: Guid(2fe67a56a75e8e248af67884107ca484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar5.png using Guid(2fe67a56a75e8e248af67884107ca484) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05992e6dc00df1984c17f65a8af57748') in 0.008093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar19b.png
+  artifactKey: Guid(a8066bda2f259ef46a23a906ba4ebd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar19b.png using Guid(a8066bda2f259ef46a23a906ba4ebd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c726c7c7fcc171199c3ecbba3e0e4721') in 0.0092546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button82.png
+  artifactKey: Guid(b761abd516a85ca46acbfc53bbc911b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button82.png using Guid(b761abd516a85ca46acbfc53bbc911b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52d61d6db8e492e3b6c1a8d5f949bc4e') in 0.009415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button9.png
+  artifactKey: Guid(63a3711387b1f7c49915c6d8529ee6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button9.png using Guid(63a3711387b1f7c49915c6d8529ee6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48986cecb2d5e0ecae51dea943c1f563') in 0.0105019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar20.png
+  artifactKey: Guid(222b871060ee0d444894770446d086d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar20.png using Guid(222b871060ee0d444894770446d086d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6618fef1ff0c9dda12c3b3f4b4dffd0f') in 0.0097126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar2.png
+  artifactKey: Guid(70d94211514892d4e8684ce15efe6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar2.png using Guid(70d94211514892d4e8684ce15efe6c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a63eafd9b7c0ef0720ffb6ffd8d0b71') in 0.0091989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button87.png
+  artifactKey: Guid(69d935fd3e4c870499c993e4cdfd8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button87.png using Guid(69d935fd3e4c870499c993e4cdfd8bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bddc602c4f8593073701059b5141b2e8') in 0.0075843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button20.png
+  artifactKey: Guid(d5f3c9b48ecd0af44bb7d5365fc39125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button20.png using Guid(d5f3c9b48ecd0af44bb7d5365fc39125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2066e59b660d8f5330ab70f1b4f0d751') in 0.0090958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button64.png
+  artifactKey: Guid(099e8a99eb303b1459be1d8252110324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button64.png using Guid(099e8a99eb303b1459be1d8252110324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c224d6b0525964748e452f2f557c1d6') in 0.0095397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar24.png
+  artifactKey: Guid(32dd8a8b7cb77c94e973d7d43f388d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar24.png using Guid(32dd8a8b7cb77c94e973d7d43f388d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa60eefaed211f955779c1eff26bd03d') in 0.008734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button89.png
+  artifactKey: Guid(669d633372178434d89ac9a65b513fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button89.png using Guid(669d633372178434d89ac9a65b513fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03ba0dbf8414d4c30e26903ea69ec9f7') in 0.0088313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button3.png
+  artifactKey: Guid(3ff629c1ffa36984f89224bbd0e52887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button3.png using Guid(3ff629c1ffa36984f89224bbd0e52887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d118ca500811a9f0f9fe4373fa81710') in 0.0078584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button44.png
+  artifactKey: Guid(d5eb8ed269db47d41a3fb9ed88134ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button44.png using Guid(d5eb8ed269db47d41a3fb9ed88134ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dde489be47f87b1b269ae671c3fe5a25') in 0.0096959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button41.png
+  artifactKey: Guid(70e1d3b938b0ad144a50c84b639baaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button41.png using Guid(70e1d3b938b0ad144a50c84b639baaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '235363502fed37f664eeed9e67d36de9') in 0.0090886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button26.png
+  artifactKey: Guid(ef1dd0266d149de41bf6079d149fc4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button26.png using Guid(ef1dd0266d149de41bf6079d149fc4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24193ccfac33025aabfb49632c915c9') in 0.0112312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button86.png
+  artifactKey: Guid(2b99ad0b0e518bd4cbc793c7f510c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button86.png using Guid(2b99ad0b0e518bd4cbc793c7f510c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb2048ca993766e7f371e3e17f6edeb6') in 0.0088093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button42.png
+  artifactKey: Guid(6bcb1decdd7b0c24e93ae3fad6934ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button42.png using Guid(6bcb1decdd7b0c24e93ae3fad6934ca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5376c45abba2f5783c5ea6f7cb40c1') in 0.0092003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button5.png
+  artifactKey: Guid(4a2883c718b4f3049bd73f138bc76cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button5.png using Guid(4a2883c718b4f3049bd73f138bc76cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65ac5977a24736d7b1f5d79983d56de7') in 0.0090701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button29.png
+  artifactKey: Guid(4e3834b121c1c874b8f88aa49931114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button29.png using Guid(4e3834b121c1c874b8f88aa49931114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa590f36d122a07a169a36387ff7aaae') in 0.0097106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button27.png
+  artifactKey: Guid(56a1449b38680524a812e52a97470638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button27.png using Guid(56a1449b38680524a812e52a97470638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02fae4a7cf54ebbd65719279fd43181a') in 0.0085894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button51.png
+  artifactKey: Guid(63378d5b7a54baf4cb96f18a10a99b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button51.png using Guid(63378d5b7a54baf4cb96f18a10a99b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7da1f4eaa9f04392ddd307ee75d4096') in 0.0091559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button16.png
+  artifactKey: Guid(a182cae0223aacf49adaa6e5df177ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button16.png using Guid(a182cae0223aacf49adaa6e5df177ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1355359e9693327a86a4678f3e4c131b') in 0.0092156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button23.png
+  artifactKey: Guid(9b80b37517ba4e14ca0e8b12e36d41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button23.png using Guid(9b80b37517ba4e14ca0e8b12e36d41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5349364104c7cdd8834d157f94d2fb5d') in 0.0109666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar14.png
+  artifactKey: Guid(d1ce749096464824c9f5a4c738698ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar14.png using Guid(d1ce749096464824c9f5a4c738698ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb0b0fdba0f340b81ebfb5cfad3040c3') in 0.0100106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button53.png
+  artifactKey: Guid(81aa3576fe2b89840ad0e62cf3c72ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button53.png using Guid(81aa3576fe2b89840ad0e62cf3c72ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86c3afa262e097d21873f0129cfc3ba9') in 0.0097735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button36.png
+  artifactKey: Guid(7e6cc6a944e040c4fac4976020dbe8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button36.png using Guid(7e6cc6a944e040c4fac4976020dbe8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06975f57e4cf8aec66a10b98334ef98c') in 0.0090226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar23.png
+  artifactKey: Guid(1ef2d7fa641594b46a69e458a1d56172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar23.png using Guid(1ef2d7fa641594b46a69e458a1d56172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d1ec4fed339d1ffc6b9c49e7cfda790') in 0.0102381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button6.png
+  artifactKey: Guid(0b95e5ec97878fd4b91de7267f2a6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button6.png using Guid(0b95e5ec97878fd4b91de7267f2a6157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5f4191e323c12ebd094906c66336b5e') in 0.0094693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button17.png
+  artifactKey: Guid(28353e2f9385e6b4e9d30ed7ebadf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button17.png using Guid(28353e2f9385e6b4e9d30ed7ebadf1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98fa137aaa50f4f91dba81399f7d2fbd') in 0.0082452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button70.png
+  artifactKey: Guid(6b6b20b529f09804c81701bc127d716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button70.png using Guid(6b6b20b529f09804c81701bc127d716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbb9074c7fb570fab91e7ce89cf00494') in 0.0099797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button37.png
+  artifactKey: Guid(10656f67a639c144d82c9e2d1f05dc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button37.png using Guid(10656f67a639c144d82c9e2d1f05dc1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19263eb366f2822377b22e0256e06161') in 0.0093333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button46.png
+  artifactKey: Guid(56766fab6d5f0394e808af0868aa4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button46.png using Guid(56766fab6d5f0394e808af0868aa4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '871c89e490a1c070b01d449f0b5e7088') in 0.0103367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button39.png
+  artifactKey: Guid(6a056d2b013f22c4f8cad26fc255c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button39.png using Guid(6a056d2b013f22c4f8cad26fc255c890) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca14756022f3c2fb599886c0e833c818') in 0.0097502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button65.png
+  artifactKey: Guid(bbaeec0cbf64d6848b11e9638aa826f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button65.png using Guid(bbaeec0cbf64d6848b11e9638aa826f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae68e84000c2f07152db8cbca9f7120a') in 0.0081147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button60.png
+  artifactKey: Guid(627c13a8eac29624880b49f1e0824a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button60.png using Guid(627c13a8eac29624880b49f1e0824a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86a71481a15eea435a2ddd770466dfd5') in 0.0105274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button13.png
+  artifactKey: Guid(40f8e981b5014cb488d8318ad3013fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button13.png using Guid(40f8e981b5014cb488d8318ad3013fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ec5e59fb7a9f241366a5b569d941a6') in 0.009134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button61.png
+  artifactKey: Guid(f2154a889a3c0924cb2c403d4a2c59ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button61.png using Guid(f2154a889a3c0924cb2c403d4a2c59ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b18f3bc7314b67c6e92b81020550be1') in 0.0103377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar8.png
+  artifactKey: Guid(9dc9bb865c056474eb09caade12ba9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar8.png using Guid(9dc9bb865c056474eb09caade12ba9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a665845f3af1aaa0595e7bf22a4e9ae8') in 0.0097205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar11.png
+  artifactKey: Guid(7f24baf578683ae42a8994e9529fed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar11.png using Guid(7f24baf578683ae42a8994e9529fed34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2af7af24023e3b9ed40e8ee43c80365') in 0.0083844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button15.png
+  artifactKey: Guid(a1d6e4aba2985c24dae1a9d268489353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button15.png using Guid(a1d6e4aba2985c24dae1a9d268489353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac78d6369a45ce8887fa59c0ff5bef20') in 0.0091901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button18.png
+  artifactKey: Guid(d3e077e61d5009d4f810e258e818a966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button18.png using Guid(d3e077e61d5009d4f810e258e818a966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0fc429361d494e20e6d99f6fb8779bd') in 0.0103919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button59.png
+  artifactKey: Guid(7ffb0583e137b4245b067ec47a6c3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button59.png using Guid(7ffb0583e137b4245b067ec47a6c3001) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '830c3fcb26f1fde760f2579db3ef33fe') in 0.0096537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button49.png
+  artifactKey: Guid(6fd2c74b0f6ddd24985ba59ade960f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button49.png using Guid(6fd2c74b0f6ddd24985ba59ade960f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '186acd59b9674f39f455510539cea4fd') in 0.0092794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button62.png
+  artifactKey: Guid(771dc04c66edd8f4dadc614059a2407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button62.png using Guid(771dc04c66edd8f4dadc614059a2407a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dde2558a4a25b68adaa122c082d8f928') in 0.0091077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar15.png
+  artifactKey: Guid(3873a33ae600fb24b83e78f755552474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar15.png using Guid(3873a33ae600fb24b83e78f755552474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0350aaac197e8c3dd90a168970d1777a') in 0.0097158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button93.png
+  artifactKey: Guid(6a6e0e58f410e5549913e092c9eb1414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button93.png using Guid(6a6e0e58f410e5549913e092c9eb1414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d212a8a09a9e07ad360554cc1dc725e') in 0.0096537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button74.png
+  artifactKey: Guid(ceb12dee810207a44b1d10a28cb227f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button74.png using Guid(ceb12dee810207a44b1d10a28cb227f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '306f0880cbe35d54a8d868e5f7fa5605') in 0.0097977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button85.png
+  artifactKey: Guid(862e40858f72d3b4ca656983b0726fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button85.png using Guid(862e40858f72d3b4ca656983b0726fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fe45732d25a721f4d3cddcda122501a') in 0.0104827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button83.png
+  artifactKey: Guid(33ae648e352d79b4192896139b6f81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button83.png using Guid(33ae648e352d79b4192896139b6f81f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef51a41d9e4b7dd5eb53d5870fd8cbd') in 0.0093606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar9.png
+  artifactKey: Guid(8cb87f68c0fc7bf4587cc4cd0ba36bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar9.png using Guid(8cb87f68c0fc7bf4587cc4cd0ba36bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ae194f5ff31e8657f73cea89ab1f3c3') in 0.0092771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button14.png
+  artifactKey: Guid(b049791805ba43545aa537d028efa8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button14.png using Guid(b049791805ba43545aa537d028efa8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b36411ae2e574d2573e53f337e7eeff') in 0.0088603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button57.png
+  artifactKey: Guid(6bcd84c5dd59cab46a3ac62ca1c2bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button57.png using Guid(6bcd84c5dd59cab46a3ac62ca1c2bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8653533a3f88fd6aada4a3aa6c99e140') in 0.0103107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar22.png
+  artifactKey: Guid(930cd0252437c5f4281fe06ef11464d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar22.png using Guid(930cd0252437c5f4281fe06ef11464d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62d84a539a0dba23ac3a04ed525143aa') in 0.009487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar12.png
+  artifactKey: Guid(141e1e09b6ddfe443a00256f5ead126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button_rock_greystar12.png using Guid(141e1e09b6ddfe443a00256f5ead126b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0228a13f5f580ef26a2cadca32d616ac') in 0.0102803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button35.png
+  artifactKey: Guid(8c64cea1763634e478424c073dcfc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button35.png using Guid(8c64cea1763634e478424c073dcfc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c40b6fcdccd4a29aa436887e1096539') in 0.0082785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/StoneUI/OtherUI_4k+/button33.png
+  artifactKey: Guid(77ac2905d497e2140b1a3db694393058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/StoneUI/OtherUI_4k+/button33.png using Guid(77ac2905d497e2140b1a3db694393058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef07b559d7a651c48526e8ac755c3e1d') in 0.0089976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3960 unused Assets / (2.9 MB). Loaded Objects now: 4558.
+Memory consumption went from 119.2 MB to 116.2 MB.
+Total: 7.335000 ms (FindLiveObjects: 0.358500 ms CreateObjectMapping: 0.438400 ms MarkObjects: 4.720900 ms  DeleteObjects: 1.815900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

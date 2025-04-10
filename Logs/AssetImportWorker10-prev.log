@@ -1,0 +1,2385 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.42f1 (feb9a7235030) revision 16693671'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 65305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.42f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+55006
+-job-worker-count
+13
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32748]  Target information:
+
+Player connection [32748]  * "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 1674952916 [EditorId] 1674952916 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U7GP6VA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32748] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32748] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.42f1 (feb9a7235030)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lauri/Desktop/EscapameEsta/Frogames/1/Prototype/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.7260
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003592 seconds.
+- Loaded All Assemblies, in  0.293 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.200 seconds
+Domain Reload Profiling: 492ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 807ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (195ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (18ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (361ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 81 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3969 unused Assets / (2.9 MB). Loaded Objects now: 4545.
+Memory consumption went from 130.1 MB to 127.1 MB.
+Total: 5.802300 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.215800 ms MarkObjects: 3.754700 ms  DeleteObjects: 1.524900 ms)
+
+========================================================================
+Received Prepare
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3960 unused Assets / (2.9 MB). Loaded Objects now: 4545.
+Memory consumption went from 111.6 MB to 108.7 MB.
+Total: 5.486800 ms (FindLiveObjects: 0.275700 ms CreateObjectMapping: 0.227500 ms MarkObjects: 3.546200 ms  DeleteObjects: 1.436700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.605 seconds
+Domain Reload Profiling: 1251ms
+	BeginReloadAssembly (189ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (605ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (484ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.3 MB). Loaded Objects now: 4546.
+Memory consumption went from 113.4 MB to 111.1 MB.
+Total: 7.009400 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.202700 ms MarkObjects: 4.917400 ms  DeleteObjects: 1.411900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 23465.351478 seconds.
+  path: Assets/Scripts/pickeableItems.cs
+  artifactKey: Guid(898da7a79e9397346a3e8c05c68c49f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pickeableItems.cs using Guid(898da7a79e9397346a3e8c05c68c49f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50a6c73bf70c8fe58c59168ea6755e07') in 0.0136104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.462150 seconds.
+  path: Assets/Prefabs/Key1.prefab
+  artifactKey: Guid(4e64a5aad19c5d243ae310ba872ac8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Key1.prefab using Guid(4e64a5aad19c5d243ae310ba872ac8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4bb1658201e7c1bb25d1d18d0a9bf33') in 0.0804385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.559911 seconds.
+  path: Assets/Prefabs/Picture.prefab
+  artifactKey: Guid(496c16c391020f742be6043cd7c131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture.prefab using Guid(496c16c391020f742be6043cd7c131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '216fe462d91cf626984103c4300108e6') in 0.0258079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.000842 seconds.
+  path: Assets/Prefabs/Vasija.prefab
+  artifactKey: Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vasija.prefab using Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56b31d7caaffa7ef203fbb25cc119784') in 0.0216856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.443620 seconds.
+  path: Assets/Prefabs/Vasija.prefab
+  artifactKey: Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vasija.prefab using Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ee532fb6fe0ab8d02fecd643a10eb52') in 0.0141707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.014604 seconds.
+  path: Assets/Prefabs/Horrordoll.prefab
+  artifactKey: Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Horrordoll.prefab using Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '388e849c9d2d83cdf3e971cc1619964b') in 0.0700271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.697264 seconds.
+  path: Assets/Prefabs/Picture2.prefab
+  artifactKey: Guid(f9414acd48ff58b4f93bae86e54db1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture2.prefab using Guid(f9414acd48ff58b4f93bae86e54db1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fec09d418d1f5109cf72458a9c7abcee') in 0.0152956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.172184 seconds.
+  path: Assets/Prefabs/Vasija.prefab
+  artifactKey: Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vasija.prefab using Guid(cdbe2e16a60dd8746aeb598dc89ce9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1faa166dd643b676b705add89f73ae') in 0.0144767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.409575 seconds.
+  path: Assets/Prefabs/Picture2.prefab
+  artifactKey: Guid(f9414acd48ff58b4f93bae86e54db1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture2.prefab using Guid(f9414acd48ff58b4f93bae86e54db1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46dc315c1586d39227abe3e9614ce7d3') in 0.0078641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.911747 seconds.
+  path: Assets/Prefabs/Picture.prefab
+  artifactKey: Guid(496c16c391020f742be6043cd7c131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture.prefab using Guid(496c16c391020f742be6043cd7c131f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3771284e8c9a26d56759a291f8734fde') in 0.0436392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.767282 seconds.
+  path: Assets/Prefabs/Horrordoll.prefab
+  artifactKey: Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Horrordoll.prefab using Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3f3ea32d5f6e7382eef3f8ec5a20d00') in 0.0262438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.306245 seconds.
+  path: Assets/Prefabs/Vasija2.prefab
+  artifactKey: Guid(e36d72943fcf0f74e80b62b424bc8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vasija2.prefab using Guid(e36d72943fcf0f74e80b62b424bc8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e80cb04c20c13499a3de2437d1a46b') in 0.0630517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 196.422201 seconds.
+  path: Assets/Prefabs/Rug.prefab
+  artifactKey: Guid(112f84e0d3bf39741bdb394f61080242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rug.prefab using Guid(112f84e0d3bf39741bdb394f61080242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4566f68f68952162d3efa93804e8a6a') in 0.0157485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.365324 seconds.
+  path: Assets/Prefabs/Picture3.prefab
+  artifactKey: Guid(d93771aa152811a40a2c539d68dd3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture3.prefab using Guid(d93771aa152811a40a2c539d68dd3c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '956b053d4da01f129d97a2e684e35e54') in 0.0140553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.135207 seconds.
+  path: Assets/Prefabs/Picture4.prefab
+  artifactKey: Guid(c540171228dc83044b2a6cfb5062443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture4.prefab using Guid(c540171228dc83044b2a6cfb5062443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7526850330d9055e768433cf923afbb') in 0.0138998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.974302 seconds.
+  path: Assets/Prefabs/Picture5.prefab
+  artifactKey: Guid(38fb5a7d491680b4bb70a693a9e2b39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Picture5.prefab using Guid(38fb5a7d491680b4bb70a693a9e2b39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1636a8d28724e432aadf706a89dbec9e') in 0.0148403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 716ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.8 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.3 MB.
+Total: 5.809800 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.211800 ms MarkObjects: 3.670300 ms  DeleteObjects: 1.547500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 213.915777 seconds.
+  path: Assets/Prefabs/Horrordoll.prefab
+  artifactKey: Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Horrordoll.prefab using Guid(7f0787c788c417840860e66d77624e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99107320588fecff49357389cd0c3547') in 0.061705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.469299 seconds.
+  path: Assets/Prefabs/Rug.prefab
+  artifactKey: Guid(112f84e0d3bf39741bdb394f61080242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rug.prefab using Guid(112f84e0d3bf39741bdb394f61080242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81f95a9e501b7813c5d8af2116a536d') in 0.0369346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.021512 seconds.
+  path: Assets/Prefabs/Vasija2.prefab
+  artifactKey: Guid(e36d72943fcf0f74e80b62b424bc8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Vasija2.prefab using Guid(e36d72943fcf0f74e80b62b424bc8942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3cf7c1a73d9f7eca8613196955ff241') in 0.0196781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Prepare
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3960 unused Assets / (2.6 MB). Loaded Objects now: 4557.
+Memory consumption went from 118.3 MB to 115.8 MB.
+Total: 6.725200 ms (FindLiveObjects: 0.437600 ms CreateObjectMapping: 0.184600 ms MarkObjects: 4.557000 ms  DeleteObjects: 1.545000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3960 unused Assets / (3.0 MB). Loaded Objects now: 4557.
+Memory consumption went from 118.3 MB to 115.4 MB.
+Total: 6.603900 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.177600 ms MarkObjects: 4.137700 ms  DeleteObjects: 1.882300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.372 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 704ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (91ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (260ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.7 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.4 MB.
+Total: 5.547200 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.266600 ms MarkObjects: 3.552500 ms  DeleteObjects: 1.440600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.355 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.349 seconds
+Domain Reload Profiling: 704ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (174ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (280ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.2 MB.
+Total: 5.356400 ms (FindLiveObjects: 0.270700 ms CreateObjectMapping: 0.226600 ms MarkObjects: 3.249900 ms  DeleteObjects: 1.608000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.353 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.370 seconds
+Domain Reload Profiling: 721ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (218ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.1 MB.
+Total: 5.507000 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.182800 ms MarkObjects: 3.400000 ms  DeleteObjects: 1.672000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.353 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.352 seconds
+Domain Reload Profiling: 705ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (90ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (286ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.2 MB.
+Total: 5.483100 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.225300 ms MarkObjects: 3.350800 ms  DeleteObjects: 1.610200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.362 seconds
+Domain Reload Profiling: 723ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (205ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (362ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (292ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (3.0 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.1 MB.
+Total: 5.866800 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.236400 ms MarkObjects: 3.592200 ms  DeleteObjects: 1.728500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.363 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 710ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (81ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4556.
+Memory consumption went from 118.1 MB to 115.2 MB.
+Total: 5.788100 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.198500 ms MarkObjects: 3.578300 ms  DeleteObjects: 1.716500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 868.633092 seconds.
+  path: Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png
+  artifactKey: Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png using Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '881881e1cab26661cf306fc76024d21b') in 0.0850636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.841594 seconds.
+  path: Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png
+  artifactKey: Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png using Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6869d3220bf9d0b7445e23f5477681') in 0.0178143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.738986 seconds.
+  path: Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png
+  artifactKey: Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/102-1024121_key-vintage-key-lock-old-antique-unlock-skeleton.png using Guid(a73b8191a4ecf074eb3d7d383b62cb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc5cf2fb84b2ce11f3780a0b9bd5c6fb') in 0.2017054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.350 seconds
+Domain Reload Profiling: 715ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (350ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (283ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3967 unused Assets / (2.9 MB). Loaded Objects now: 4561.
+Memory consumption went from 118.1 MB to 115.2 MB.
+Total: 6.131400 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.256800 ms MarkObjects: 3.683200 ms  DeleteObjects: 1.866400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.848882 seconds.
+  path: Assets/img/Google-Noto-Emoji-Objects-62952-old-key.512.png
+  artifactKey: Guid(6153a13177f588e429e627f47af1594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/img/Google-Noto-Emoji-Objects-62952-old-key.512.png using Guid(6153a13177f588e429e627f47af1594b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d527f77c06e760aa317e0079ab3828c') in 0.0691231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.354 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.306 seconds
+Domain Reload Profiling: 659ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (169ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (306ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3990 unused Assets / (2.9 MB). Loaded Objects now: 4584.
+Memory consumption went from 118.3 MB to 115.4 MB.
+Total: 6.003100 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.244400 ms MarkObjects: 3.773900 ms  DeleteObjects: 1.700100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3983 unused Assets / (2.9 MB). Loaded Objects now: 4584.
+Memory consumption went from 118.5 MB to 115.5 MB.
+Total: 5.656100 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.226900 ms MarkObjects: 3.585400 ms  DeleteObjects: 1.556400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.350 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (75ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3990 unused Assets / (2.8 MB). Loaded Objects now: 4584.
+Memory consumption went from 118.3 MB to 115.6 MB.
+Total: 5.523800 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.212000 ms MarkObjects: 3.544000 ms  DeleteObjects: 1.479000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 76.131160 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Armor04.png
+  artifactKey: Guid(b30bbdea7cb1c2149b869249a8949e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Armor04.png using Guid(b30bbdea7cb1c2149b869249a8949e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55bc3a22b1820f74640cbe7771474dea') in 0.0779747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Book.png
+  artifactKey: Guid(f348af19ff3b1fd43be794f7c8055bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Book.png using Guid(f348af19ff3b1fd43be794f7c8055bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7588bb4d93d87fde60311ca3b2a8495c') in 0.0111794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key05.png
+  artifactKey: Guid(f577c228b0dba004f91952571272b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key05.png using Guid(f577c228b0dba004f91952571272b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '702adff5c2b732951ecd47e3ae20a279') in 0.0108071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Scroll.png
+  artifactKey: Guid(99700ced695b15f45a0e8393b5842e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Scroll.png using Guid(99700ced695b15f45a0e8393b5842e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b362cfa0e8964a4128c51e1d164b27') in 0.012226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock01.png
+  artifactKey: Guid(0cca06a27c1b83e46ad30f39526af5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock01.png using Guid(0cca06a27c1b83e46ad30f39526af5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f66fe29885a25e933d767d21f740d43') in 0.0110503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Bones02.png
+  artifactKey: Guid(5a35f96fb1dce6e498ee604ae3c49dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Bones02.png using Guid(5a35f96fb1dce6e498ee604ae3c49dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '443dbb5d9b1d79df3b1051cf2114bc5e') in 0.0112478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Feather01.png
+  artifactKey: Guid(df5a87121a4f45c4f8203a4698071309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Feather01.png using Guid(df5a87121a4f45c4f8203a4698071309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f26b8bd9662108b0efcd7645e0d33da') in 0.0105437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_BatWing.png
+  artifactKey: Guid(3314bce9bb1015e4185b378b7bfcbfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_BatWing.png using Guid(3314bce9bb1015e4185b378b7bfcbfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cb616981ae545ad0ae417538a9ad1ca') in 0.0094917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Crystal01.png
+  artifactKey: Guid(511e36f9c040c244d82636e256842792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Crystal01.png using Guid(511e36f9c040c244d82636e256842792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aab8574ba31e705b6c7c979e4abfb16e') in 0.0092005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood03.png
+  artifactKey: Guid(59c998d1f9afc68438f34934b2e9e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood03.png using Guid(59c998d1f9afc68438f34934b2e9e7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02746ded17dd9b97b5ea4d329df46e28') in 0.0093227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes02.png
+  artifactKey: Guid(6a411f8ab3ee58143a8e800c025b0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes02.png using Guid(6a411f8ab3ee58143a8e800c025b0ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf0491097fe2d89a29244be4b78c6b45') in 0.0107651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace07.png
+  artifactKey: Guid(c6250c348bf742f41929218842c45156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace07.png using Guid(c6250c348bf742f41929218842c45156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '500d32e6a758a864946446943d15a71f') in 0.0099391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes06.png
+  artifactKey: Guid(2a6764af2b3a97547a7351ec7a8700d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes06.png using Guid(2a6764af2b3a97547a7351ec7a8700d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e851554f29a68f7a558c7a39f1e12c2') in 0.0114086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Medal03.png
+  artifactKey: Guid(6e827cd1aed7dc648858433e585bc52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Medal03.png using Guid(6e827cd1aed7dc648858433e585bc52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88a1277c5ef9913ec91d396cd6774c93') in 0.00995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key01.png
+  artifactKey: Guid(d470eee22646f434dab148c043dea4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key01.png using Guid(d470eee22646f434dab148c043dea4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7aae08d45216927af47fda54e201d26') in 0.0110214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Ring02.png
+  artifactKey: Guid(7c1963d99f9834646bf9f53fddbf0554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Ring02.png using Guid(7c1963d99f9834646bf9f53fddbf0554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285228ddcd8940740b9dd19188310545') in 0.0093093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes01.png
+  artifactKey: Guid(fe81e13c1e693904da7169cb61230b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes01.png using Guid(fe81e13c1e693904da7169cb61230b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f84ce78d852e66424cddcb61e94fe43') in 0.0228454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal03.png
+  artifactKey: Guid(fdd9905f2eb85924aa36f3e339d0f1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal03.png using Guid(fdd9905f2eb85924aa36f3e339d0f1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c7b178975df2a589586715ce94810f32') in 0.0103098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock04.png
+  artifactKey: Guid(66e61fc81502f634a9dc8eb7c782f60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock04.png using Guid(66e61fc81502f634a9dc8eb7c782f60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74627a75e77b4c1129f3a8cac556894a') in 0.0109461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_YellowPepper.png
+  artifactKey: Guid(91eb05268c60eb14e8ffb48fbdd08c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_YellowPepper.png using Guid(91eb05268c60eb14e8ffb48fbdd08c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2a7fed0f5e07282027d0ba04a7f255e') in 0.0089165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Ring01.png
+  artifactKey: Guid(6796a6f46a3f1784cba895e84b655888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Ring01.png using Guid(6796a6f46a3f1784cba895e84b655888) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64cfccaee1e68b729f0554c17241b893') in 0.0104867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal09.png
+  artifactKey: Guid(f80829d6a117f1e4489d24f35200020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal09.png using Guid(f80829d6a117f1e4489d24f35200020f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89a0972f3bdf98b8c0cf83f7e25f07e3') in 0.0182188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Crystal02.png
+  artifactKey: Guid(25645ccf1d892334fb0f97238942eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Crystal02.png using Guid(25645ccf1d892334fb0f97238942eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c8c25efcbca6c8f109c7237c057d49') in 0.0106897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Elm04.png
+  artifactKey: Guid(9e7f78e45cca5124b9ccb301979df266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Elm04.png using Guid(9e7f78e45cca5124b9ccb301979df266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd17e7a4e80fe3ff93ab6fc7c595188f2') in 0.0106768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Antidote.png
+  artifactKey: Guid(e7d98220ba056344381bc1a991de38f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Antidote.png using Guid(e7d98220ba056344381bc1a991de38f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb565675f8db2f1774d764156399af28') in 0.0102933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace06.png
+  artifactKey: Guid(c1587030e506b7a449216816734cff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace06.png using Guid(c1587030e506b7a449216816734cff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42de8dc8fadc8e49ab7284706534b283') in 0.0107038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal04.png
+  artifactKey: Guid(b1ecc1a38f4bda546b54ba2f81eebda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Metal04.png using Guid(b1ecc1a38f4bda546b54ba2f81eebda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57ce8cee0616d1724ba8463b50ac319a') in 0.0106296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_FoxTail.png
+  artifactKey: Guid(8d80dd5a4ce25f64dbeaee6aa2594efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_FoxTail.png using Guid(8d80dd5a4ce25f64dbeaee6aa2594efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a059125de70c8743eb0cfa117529556') in 0.0115161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Orange.png
+  artifactKey: Guid(13aea7c860b49b646bbaee87f584ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Orange.png using Guid(13aea7c860b49b646bbaee87f584ba76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a197d3eee34c1c26904b3af50e7abe1') in 0.0113516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock03.png
+  artifactKey: Guid(d3dc370e6773c8c4e903b23b4a0233ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Rock03.png using Guid(d3dc370e6773c8c4e903b23b4a0233ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7038160b98db5d9d18dfdef738a6f57') in 0.0112023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes05.png
+  artifactKey: Guid(8ff13ab6b9f3da648a2bfeb86289936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Shoes05.png using Guid(8ff13ab6b9f3da648a2bfeb86289936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bd43471138ff4947156e17032715d6d') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_SilverCoin.png
+  artifactKey: Guid(2aa65dab039d8ca43b8a9da8bac802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_SilverCoin.png using Guid(2aa65dab039d8ca43b8a9da8bac802cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '034461d414854d582e73a0ed0ec6b75a') in 0.0101293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key02.png
+  artifactKey: Guid(705c171922dbe2a4baa15aa01c10183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Key02.png using Guid(705c171922dbe2a4baa15aa01c10183a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cd280431111dd5ddd950b752f667fe3') in 0.011394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Armour01.png
+  artifactKey: Guid(f5cdc7a4591fe084abd84cb5f19b0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Armour01.png using Guid(f5cdc7a4591fe084abd84cb5f19b0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1267eff716495c611d9f010e337fa52') in 0.0116681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Cannon05.png
+  artifactKey: Guid(a88239c9358deaf4eaf13c0dd81bb5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Cannon05.png using Guid(a88239c9358deaf4eaf13c0dd81bb5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7eb3d4a16e349ea2fe5bd6c99a00a55') in 0.0117434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Lemon.png
+  artifactKey: Guid(69be61cc24760b643965001d39f065d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Lemon.png using Guid(69be61cc24760b643965001d39f065d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a7199bb8df3fee18237bed2f3280101') in 0.0106822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Carrot.png
+  artifactKey: Guid(1f6af2478a9ac42408d23bcfe5384c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Carrot.png using Guid(1f6af2478a9ac42408d23bcfe5384c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '691da8425c89cce37e4ac368161bf92a') in 0.0116692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Gold01.png
+  artifactKey: Guid(295b8f84c6265f7488ae78e7db1fdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Gold01.png using Guid(295b8f84c6265f7488ae78e7db1fdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9b4a582ff00e297df03a08d097d4e53') in 0.0110565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Grapes.png
+  artifactKey: Guid(5a19a98391e6aee4c880ee8636954570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Grapes.png using Guid(5a19a98391e6aee4c880ee8636954570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f85ec1a7592368213c13edc2514bb36a') in 0.0110411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Feather02.png
+  artifactKey: Guid(0b1ed1e7bd5ba294587b95aa7afb1633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Feather02.png using Guid(0b1ed1e7bd5ba294587b95aa7afb1633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '274b8dec01d72883885dec7d8ac8038e') in 0.0114209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Ink.png
+  artifactKey: Guid(6e88f967842ef334eb53dc58dfa4d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Ink.png using Guid(6e88f967842ef334eb53dc58dfa4d824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a47576754e18bfed8e97b3f6fbd2615d') in 0.0107324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace03.png
+  artifactKey: Guid(ad86123bbc1de14418486618fdfd92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/Ac_Necklace03.png using Guid(ad86123bbc1de14418486618fdfd92df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a7f34002c37fb36cf9149215d1e3d92') in 0.0104976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Bones03.png
+  artifactKey: Guid(a9f45d5ee096e3a4baf03514cd973c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Bones03.png using Guid(a9f45d5ee096e3a4baf03514cd973c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e9f1985eef291c5c4baa1041ceb6a3f') in 0.0116479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_BronzeCoin.png
+  artifactKey: Guid(a388153bab04bab4d9e5ad8fb39e4be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_BronzeCoin.png using Guid(a388153bab04bab4d9e5ad8fb39e4be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acc3b3491b62f93d66fb5c70aa322392') in 0.0114875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_RedPepper.png
+  artifactKey: Guid(ceff5620f2f3bf048a2450c7ebb81fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_RedPepper.png using Guid(ceff5620f2f3bf048a2450c7ebb81fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72cc94e0d95c97ea83635c024d25a66f') in 0.0119138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_SnailShell.png
+  artifactKey: Guid(ee17aeb7cdacef8499b589746d81ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_SnailShell.png using Guid(ee17aeb7cdacef8499b589746d81ab76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0993c00b07637d4abab390512debeea') in 0.0109407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Hat01.png
+  artifactKey: Guid(37fdf314331e18e4d88c61d042d029da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Hat01.png using Guid(37fdf314331e18e4d88c61d042d029da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03ebb133779e0b11d48acf3739fc477') in 0.0109776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Mushroom.png
+  artifactKey: Guid(a77550a5c3a9d024595d9e8d23b75f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Mushroom.png using Guid(a77550a5c3a9d024595d9e8d23b75f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d94366e64bb0de1fea8ccf780c3a78c') in 0.0109248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Clothing01.png
+  artifactKey: Guid(40387f735e8533547815a1a2371b7faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/A_Clothing01.png using Guid(40387f735e8533547815a1a2371b7faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02781743fc48fcac6677ebbd14f0e496') in 0.0100932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Chest01.png
+  artifactKey: Guid(e1b178395db74534f93ba16ae2f1563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Chest01.png using Guid(e1b178395db74534f93ba16ae2f1563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6d10176bfe8d65a784fde4eac484ac8') in 0.0107141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood04.png
+  artifactKey: Guid(090201d7c19afe04c9cff46595fd846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood04.png using Guid(090201d7c19afe04c9cff46595fd846a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b83d40b1a14fcb4d7d45361792fcc1aa') in 0.0110326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Fabric.png
+  artifactKey: Guid(d077aebac4c20e441a2879cbc29e2865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Fabric.png using Guid(d077aebac4c20e441a2879cbc29e2865) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc20f046b8c229bb519bbe42f8a42f1d') in 0.0110383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Pear.png
+  artifactKey: Guid(6b2a089e80d9ef840a71b679f6ec2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Pear.png using Guid(6b2a089e80d9ef840a71b679f6ec2fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f32be97b41d059343f4bf40bb9f0931') in 0.0110463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood02.png
+  artifactKey: Guid(5f59859c406747f418ef7957081e8886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Wood02.png using Guid(5f59859c406747f418ef7957081e8886) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9884b861971bf3af1c64eeaa4275334') in 0.0113061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Jade.png
+  artifactKey: Guid(fc089d613f51b2e4cbe8580e027449c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Jade.png using Guid(fc089d613f51b2e4cbe8580e027449c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9030ce67abc7907f3b3a2bd639adf1f1') in 0.0098133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Opal.png
+  artifactKey: Guid(662badc5a25d7b94b9c5b4d49501e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Opal.png using Guid(662badc5a25d7b94b9c5b4d49501e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d339ae66624519558faa371b4c4e135') in 0.0101391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Water.png
+  artifactKey: Guid(71302ddd3cbff5e43bc4e1f44e1432f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Water.png using Guid(71302ddd3cbff5e43bc4e1f44e1432f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0421713c74c02ff2bdbfa41bb7f93b9') in 0.0113158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Telescope.png
+  artifactKey: Guid(9d24f5d19813f9e4bbe963836ea6d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Telescope.png using Guid(9d24f5d19813f9e4bbe963836ea6d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d7fbe77cafbc8b8770fa5702f82e5a4') in 0.0125346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Coal.png
+  artifactKey: Guid(8a0719acf8401f04286254fa016a35aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Coal.png using Guid(8a0719acf8401f04286254fa016a35aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfdc0b5e2d1863679ecf750dc988e855') in 0.0110616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Bone.png
+  artifactKey: Guid(e1047be4316cc204f83b845761facd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Bone.png using Guid(e1047be4316cc204f83b845761facd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a7eb297bcfa46e48fbf045f077f4da0') in 0.0110254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Radish.png
+  artifactKey: Guid(83b0039132555ff45a82c23f5af56c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Radish.png using Guid(83b0039132555ff45a82c23f5af56c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e39bcd10ee7e2796b126131b450129') in 0.0107597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Bottle01.png
+  artifactKey: Guid(38e7789056cd3034982c33c7a54d5ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Bottle01.png using Guid(38e7789056cd3034982c33c7a54d5ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c22b26823e217e47564c8f24497f76b0') in 0.012927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_RawMeat.png
+  artifactKey: Guid(576046d2ff2323f4f9db04dc3c2c9311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_RawMeat.png using Guid(576046d2ff2323f4f9db04dc3c2c9311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '696ce53d88a8c0cba07522f6df4810ad') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Banana.png
+  artifactKey: Guid(9715f66e78a72b54dbd65f1ab4558987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Banana.png using Guid(9715f66e78a72b54dbd65f1ab4558987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '356b16ba41fa54da86743111c7a627ac') in 0.0116747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Tentacle.png
+  artifactKey: Guid(68bcff7a8b54c96408c8e9dcefb12280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Tentacle.png using Guid(68bcff7a8b54c96408c8e9dcefb12280) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d4f41526c54b08d0dc8922fb880028') in 0.0120413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Ruby.png
+  artifactKey: Guid(1f287a624d371eb4cbf999c8784dd88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Ruby.png using Guid(1f287a624d371eb4cbf999c8784dd88a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15030c388058061ac633d19b68de8bcd') in 0.0122087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Leaf.png
+  artifactKey: Guid(3dcb9f59631817747a80abbaeb347767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Leaf.png using Guid(3dcb9f59631817747a80abbaeb347767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bdddc1cbb91a52ec139cb356389cfcb') in 0.0115566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_WolfFur.png
+  artifactKey: Guid(478d73fd55f71824886920b08e555d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_WolfFur.png using Guid(478d73fd55f71824886920b08e555d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e396498e58e7021596c62acf96618f4') in 0.0113743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Gold02.png
+  artifactKey: Guid(84480f5710c7d2946a489e4ed11ae4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/E_Gold02.png using Guid(84480f5710c7d2946a489e4ed11ae4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a48c5f3c256269ef2c51f0508cced52') in 0.011683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Clover.png
+  artifactKey: Guid(d6aa9d176c9f0f24194542f4e85df23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Clover.png using Guid(d6aa9d176c9f0f24194542f4e85df23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c89f1d5b9b24fa6f3790a54b9b924f9') in 0.0126869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Cannon02.png
+  artifactKey: Guid(f4be430049c207d43889090a9011355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Cannon02.png using Guid(f4be430049c207d43889090a9011355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '127272f765c35c582bbf634e3d554d90') in 0.0114668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_FishTail.png
+  artifactKey: Guid(0caf59e5921eab049b61129551b45d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_FishTail.png using Guid(0caf59e5921eab049b61129551b45d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd25d19b4b5c7882ea38e29b6461e78d7') in 0.0117476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_GreenPepper.png
+  artifactKey: Guid(2c12a663a8fe63b40b88566e78410e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_GreenPepper.png using Guid(2c12a663a8fe63b40b88566e78410e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc846cba04b562889afa097f3d5ff563') in 0.0121191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Pie.png
+  artifactKey: Guid(a2598ae709ff71242a8dcc4804bc5d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_C_Pie.png using Guid(a2598ae709ff71242a8dcc4804bc5d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11e48e8bb055e69812ae564703eb558f') in 0.0112666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue01.png
+  artifactKey: Guid(211ed625c06254046a76ff08dd11dc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue01.png using Guid(211ed625c06254046a76ff08dd11dc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bffdfc0b8b22f0ea28f905e3aaa28470') in 0.0108461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Hat02.png
+  artifactKey: Guid(ca019aaa058b5a14a9eab0526435fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Hat02.png using Guid(ca019aaa058b5a14a9eab0526435fd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d728c4ab06f511fcd76ebac963dcdcd') in 0.010869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Elm03.png
+  artifactKey: Guid(652b7529a50fc9940988dd63feea8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/C_Elm03.png using Guid(652b7529a50fc9940988dd63feea8952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '784f1f483f83d10124ad0cc87645b01c') in 0.0111396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004297 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Chest02.png
+  artifactKey: Guid(7d6a3458c42688142864a5eb8053d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/I_Chest02.png using Guid(7d6a3458c42688142864a5eb8053d615) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b8fec332d749bc066ee32310f4d594d') in 0.0106539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.550915 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue02.png
+  artifactKey: Guid(6134b826a9c73ab41b29e7d97e1197b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue02.png using Guid(6134b826a9c73ab41b29e7d97e1197b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281a46d459c1815c33999adb6aae75f6') in 0.0121028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green05.png
+  artifactKey: Guid(0f5321bf497fc0c4e862f900015eee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green05.png using Guid(0f5321bf497fc0c4e862f900015eee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01a88a51366b809848c885887f0b0cb3') in 0.0126056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green01.png
+  artifactKey: Guid(840307caba85ef541a6dbeb46ad07f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green01.png using Guid(840307caba85ef541a6dbeb46ad07f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a076d3bbf7726e82026e73b298d1029d') in 0.0118298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue04.png
+  artifactKey: Guid(ebbf5d10e818e5742912062dcd9b5c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue04.png using Guid(ebbf5d10e818e5742912062dcd9b5c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '839381f985b71ed37ae878cf6095c08a') in 0.0113193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue05.png
+  artifactKey: Guid(3a2cf91b31b50e945ac1fff5a72d028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Blue05.png using Guid(3a2cf91b31b50e945ac1fff5a72d028a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e008d12608f05bb47988b13640bb8f85') in 0.0112673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine02.png
+  artifactKey: Guid(a1be11f6ffd555743b712613eef8446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine02.png using Guid(a1be11f6ffd555743b712613eef8446a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3c791108c1021140d950fef38cb5a61') in 0.0122887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine08.png
+  artifactKey: Guid(0b70a3c8ac027e34d95d519fc6f2e54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine08.png using Guid(0b70a3c8ac027e34d95d519fc6f2e54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8f71b60fa6ae860685c341e3fd032c7') in 0.0116544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine04.png
+  artifactKey: Guid(be1b4bf5d42e73e4f9cb2770f5187802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine04.png using Guid(be1b4bf5d42e73e4f9cb2770f5187802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6eb6e662dd652f05a4a32861e3e700e') in 0.0119116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine05.png
+  artifactKey: Guid(e7c5022b0570361419d9e11473869fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine05.png using Guid(e7c5022b0570361419d9e11473869fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ad716c2a892b9f00db07d80fd8e4df8') in 0.0115852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green04.png
+  artifactKey: Guid(a88cbcdc156c1384da9e1f0e8fa2cab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Green04.png using Guid(a88cbcdc156c1384da9e1f0e8fa2cab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4dbccec2ec721bcf349d0e8a0a9892c') in 0.011617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260137 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine09.png
+  artifactKey: Guid(b50e96fedbbb8af43b3a37a2491e87a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Medicine09.png using Guid(b50e96fedbbb8af43b3a37a2491e87a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '057ab8666cd2cfd3c26687bb0bcacd15') in 0.0115333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange05.png
+  artifactKey: Guid(f17870a5121deb347860739b5c28230c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange05.png using Guid(f17870a5121deb347860739b5c28230c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d6689df6adc86550e6e635affbefad5') in 0.0113227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange04.png
+  artifactKey: Guid(8c1cf2ef07e665c4d9c79051f5a20ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange04.png using Guid(8c1cf2ef07e665c4d9c79051f5a20ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5e8c76ebea330810b8811b04677ef47') in 0.0113003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink01.png
+  artifactKey: Guid(e30dae505c0e96f46a7b2bec7cdb7875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink01.png using Guid(e30dae505c0e96f46a7b2bec7cdb7875) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d7b9b9a354641af5c7e12e3fcd1b4ce') in 0.0106638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink04.png
+  artifactKey: Guid(df3576309f958904fbe2e108284caf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink04.png using Guid(df3576309f958904fbe2e108284caf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85cadbb51116f8a3628b366f4694be90') in 0.0113395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red04.png
+  artifactKey: Guid(fec66296443b34242afcd4ef2bd47a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red04.png using Guid(fec66296443b34242afcd4ef2bd47a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dbef8a2c960d647e7e8dcbe3a97a093') in 0.0121817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange03.png
+  artifactKey: Guid(7bb84494537a0a74d8c6c6ec2523d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange03.png using Guid(7bb84494537a0a74d8c6c6ec2523d9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f378e9c1ef636c88635391f2940160ed') in 0.0118482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange06.png
+  artifactKey: Guid(31797de45351f214d838148af383b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Orange06.png using Guid(31797de45351f214d838148af383b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa5e29a5b5efcf1287a9ad95dfcc0bed') in 0.0124343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red01.png
+  artifactKey: Guid(f572fb73444f98b49a3f8cca4c5a1f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red01.png using Guid(f572fb73444f98b49a3f8cca4c5a1f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90ce1273a9e40f789738c041e3775122') in 0.0125092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink06.png
+  artifactKey: Guid(bfe6ab0904b28e1459e093d2363fdffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Pink06.png using Guid(bfe6ab0904b28e1459e093d2363fdffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4784aee1eb9fb1b0d40ef64f9ae925bf') in 0.0125555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red05.png
+  artifactKey: Guid(25e094fcf6d56c546be820fef7603a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Red05.png using Guid(25e094fcf6d56c546be820fef7603a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6a1f87a4273eef5aff748f32f8306cb') in 0.0123141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193514 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_White02.png
+  artifactKey: Guid(d2998f02fe50cfa479700900152bdc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_White02.png using Guid(d2998f02fe50cfa479700900152bdc29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '526c71fa0535f4888ef43d0d83462c51') in 0.0141667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe05.png
+  artifactKey: Guid(87ccad475088b85408dbee0526dc1c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe05.png using Guid(87ccad475088b85408dbee0526dc1c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67e6c1c86f2f6eedf30c1214c7e29908') in 0.0137803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_White05.png
+  artifactKey: Guid(717850ade9543ae4cbc38494f3b9e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_White05.png using Guid(717850ade9543ae4cbc38494f3b9e505) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00282c02798f948a335029e12079573a') in 0.0137399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow04.png
+  artifactKey: Guid(c6496767f03b8d1448dda5a53719b757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow04.png using Guid(c6496767f03b8d1448dda5a53719b757) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '833734599b459e93226e72fba1e1f019') in 0.0133728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe07.png
+  artifactKey: Guid(9ab23e6710c405143839469d2df3119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe07.png using Guid(9ab23e6710c405143839469d2df3119c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f90d1bb1fa4ed14896bf76dfefad153c') in 0.0145585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow01.png
+  artifactKey: Guid(05428e6abc76faa4c9ee5005b14e65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow01.png using Guid(05428e6abc76faa4c9ee5005b14e65b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e2b143dc73baa7102c3aaacdfd91c2') in 0.0144928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe02.png
+  artifactKey: Guid(e26b4d5f6984e75479d0d19675e5274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Axe02.png using Guid(e26b4d5f6984e75479d0d19675e5274f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9e33b288d6c476578992729d6e3cfba') in 0.0136282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow07.png
+  artifactKey: Guid(49d5766141232ae489eac88320f620ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/P_Yellow07.png using Guid(49d5766141232ae489eac88320f620ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e2d2ba9ff7fa54e21af1b04233f2f26') in 0.0115951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300841 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Bow03.png
+  artifactKey: Guid(1efb5d4660830944f9b1a0150e07d57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Bow03.png using Guid(1efb5d4660830944f9b1a0150e07d57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efd00fabd5c6720e37035e8942694125') in 0.0123574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Bow13.png
+  artifactKey: Guid(64e736188770b964680f7847aebd0b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Bow13.png using Guid(64e736188770b964680f7847aebd0b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '721684235658fb6bc72bd1492ec5e8a1') in 0.0125556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Buff02.png
+  artifactKey: Guid(52f2242ef4e864e428620fa04ca6a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Buff02.png using Guid(52f2242ef4e864e428620fa04ca6a212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95ae6d049cd1069e27cfab1c2ee855c4') in 0.0126164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040867 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Buff10.png
+  artifactKey: Guid(645234375906fdf44819dd47911cfb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Buff10.png using Guid(645234375906fdf44819dd47911cfb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '472875026561337747208a7bccde4339') in 0.0118969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Earth06.png
+  artifactKey: Guid(bd373cdf22c6928498a31f840be67a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Earth06.png using Guid(bd373cdf22c6928498a31f840be67a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd5ee6765615fe63d6cc29d2dc43687') in 0.0110849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Earth04.png
+  artifactKey: Guid(686bdc961de43ea49ac8a44764c7a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Earth04.png using Guid(686bdc961de43ea49ac8a44764c7a7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a7009b12384856cc6f0dbb49803bff') in 0.0121617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.310873 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Fire05.png
+  artifactKey: Guid(42548ad7cd0863945a0cd664fd29072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Fire05.png using Guid(42548ad7cd0863945a0cd664fd29072f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8f4536379a154db242cc0bdf872bd3d') in 0.0098291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Holy09.png
+  artifactKey: Guid(267938afbcaa8e1448aa107eff785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Holy09.png using Guid(267938afbcaa8e1448aa107eff785460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '734984491b547bea51fab23e12b1adfd') in 0.0112617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Holy06.png
+  artifactKey: Guid(b45c956c79e7d6e47b128bed35fafc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Holy06.png using Guid(b45c956c79e7d6e47b128bed35fafc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f57ef879fc3d174c5a4750f9e430e1') in 0.0111768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018632 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Ice08.png
+  artifactKey: Guid(a226936ce14fc5e44b39039dbf200086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Ice08.png using Guid(a226936ce14fc5e44b39039dbf200086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4bfe6d351ad8d9c7fd33b8bc2e9451') in 0.0100294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Magic11.png
+  artifactKey: Guid(4a9c03fbc2926334fadf637100a05721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Magic11.png using Guid(4a9c03fbc2926334fadf637100a05721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a50bd79a4670341f95edc7d0e712c3b') in 0.0104788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Physic02.png
+  artifactKey: Guid(8799ce3290673cd4eb9e395b026b72f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Physic02.png using Guid(8799ce3290673cd4eb9e395b026b72f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1737ccc49de673d720225acc4aa48c03') in 0.0103067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395503 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Poison03.png
+  artifactKey: Guid(e05ba0137253fb64482e25b180f15d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Poison03.png using Guid(e05ba0137253fb64482e25b180f15d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a175e94a653888add921aaed79c53c7') in 0.0131511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow12.png
+  artifactKey: Guid(3984e72a1d19f6542916caa5a0d84734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow12.png using Guid(3984e72a1d19f6542916caa5a0d84734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a402744d87d58c960950c277b5e09a') in 0.0110388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow04.png
+  artifactKey: Guid(0a8688e701b794149807cdb70f4ca9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow04.png using Guid(0a8688e701b794149807cdb70f4ca9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dc6748dbd9a975b4003d8a7717159b2') in 0.011558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.281498 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow15.png
+  artifactKey: Guid(bcf892cc8d6fc1146939ad34e460b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Shadow15.png using Guid(bcf892cc8d6fc1146939ad34e460b224) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8618c4651cffccf33cfabf292462d28b') in 0.0127806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Sword09.png
+  artifactKey: Guid(922352bf09e038c409aef2577d97a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Sword09.png using Guid(922352bf09e038c409aef2577d97a734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '318d0e2a9efb267f9a4200df29f9d52e') in 0.0133176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Sword21.png
+  artifactKey: Guid(f7af33157c8837d41b6538bf0e3f4850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Sword21.png using Guid(f7af33157c8837d41b6538bf0e3f4850) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b2c22455090cd657b800a1c9bef604') in 0.0145524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355497 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Thunder03.png
+  artifactKey: Guid(1614489890f92ff419a3594792fc3f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Thunder03.png using Guid(1614489890f92ff419a3594792fc3f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bba5309dcce709a5c9d2e2addabfb7f') in 0.0141047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Wind05.png
+  artifactKey: Guid(384ef000ccf22a14eaed64f205e70b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Wind05.png using Guid(384ef000ccf22a14eaed64f205e70b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718d5c4eb0705eeb17a8d82160491658') in 0.0251401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Wind02.png
+  artifactKey: Guid(996a2154e3fef1748b3603857e0572df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/S_Wind02.png using Guid(996a2154e3fef1748b3603857e0572df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '039444ac28806c6d07a09dadb9321916') in 0.0100003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.323751 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Axe003.png
+  artifactKey: Guid(4fc68ae28fd169240a5bff7772169020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Axe003.png using Guid(4fc68ae28fd169240a5bff7772169020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d38a90c6efef4598a9de298a15bf11b') in 0.013775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Axe010.png
+  artifactKey: Guid(438118e5c4877744994bc7cc1f8e8aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Axe010.png using Guid(438118e5c4877744994bc7cc1f8e8aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc6c54f4142adca107d959aaee09b679') in 0.0128798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024860 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow03.png
+  artifactKey: Guid(1c5385aa65399d74184d3fa6fdee2605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow03.png using Guid(1c5385aa65399d74184d3fa6fdee2605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e151afc1978cb2670d6990dd6884fb') in 0.0094936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow15.png
+  artifactKey: Guid(bcc470ae36ebaf640990d42d976e7410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow15.png using Guid(bcc470ae36ebaf640990d42d976e7410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd10f2863d3fe2cfdd1f6a1cb81891c0b') in 0.0098858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow17.png
+  artifactKey: Guid(921026ad5fcdb63419b11701f60ad111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Bow17.png using Guid(921026ad5fcdb63419b11701f60ad111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '671c2fe7f4bf095ca41f38453960b7ae') in 0.009874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450970 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger007.png
+  artifactKey: Guid(1a09e6c66be7fac42a4d9328b5acf8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger007.png using Guid(1a09e6c66be7fac42a4d9328b5acf8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19ff0adfe44b2790bb8bc83f13309e46') in 0.0119867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger016.png
+  artifactKey: Guid(5ee73dda2126713478bc04fe00f5f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger016.png using Guid(5ee73dda2126713478bc04fe00f5f407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8cac0fa854a3c471d96287dd72a945b') in 0.0125002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger018.png
+  artifactKey: Guid(eeb66fac6680bd0478c857388e907eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Dagger018.png using Guid(eeb66fac6680bd0478c857388e907eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af551be24cd6b1089106a6adf004d895') in 0.0095846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355329 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Gold_Bow.png
+  artifactKey: Guid(2e2b3f0cca2fb604c9d94c6fa683fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Gold_Bow.png using Guid(2e2b3f0cca2fb604c9d94c6fa683fd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85721e9b0e89efef75b81310d31ee17c') in 0.0112969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace011.png
+  artifactKey: Guid(d2542246b618af24799eaa4f18562033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace011.png using Guid(d2542246b618af24799eaa4f18562033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '760b7487931549005b6cb1ac636acaa1') in 0.0133802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace010.png
+  artifactKey: Guid(950d4fbefea4a79478beaa90ab075aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace010.png using Guid(950d4fbefea4a79478beaa90ab075aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1463a892ec5c3d0fdf254be8ab2a40a0') in 0.008852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520623 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace014.png
+  artifactKey: Guid(87f97fdb1c8b1a940b079d5d59039be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Mace014.png using Guid(87f97fdb1c8b1a940b079d5d59039be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f3fdc50912749588117db23c714fbf') in 0.0141487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Spear006.png
+  artifactKey: Guid(58abfe7c8b202394ab9573a0ff9099b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Spear006.png using Guid(58abfe7c8b202394ab9573a0ff9099b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '461fb28a468f9f147cd09314078002e5') in 0.0115687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Spear003.png
+  artifactKey: Guid(86a77aefc3ea5a44da7064ac4411763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Spear003.png using Guid(86a77aefc3ea5a44da7064ac4411763b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '984cfd3c37ceb7291cfe2519cd8740c8') in 0.0112133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795982 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Staff05.png
+  artifactKey: Guid(e56576891da71b84ba6fc08dd28504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Staff05.png using Guid(e56576891da71b84ba6fc08dd28504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0e4a47ebdd943061c11393a59b6908e') in 0.0159164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword008.png
+  artifactKey: Guid(62c60264aa1449242af061bcaf960f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword008.png using Guid(62c60264aa1449242af061bcaf960f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3615faac940662816d98b613a066077d') in 0.0121212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword010.png
+  artifactKey: Guid(fd6b75e8395793443bfa3ba6cff24271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword010.png using Guid(fd6b75e8395793443bfa3ba6cff24271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '811359308909ecf046b795018ea67552') in 0.0097897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808147 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword018.png
+  artifactKey: Guid(0aeff26a762137d47903ac75d1b16700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Sword018.png using Guid(0aeff26a762137d47903ac75d1b16700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47e12575ef35fd62e1a84ab5c10afcd4') in 0.0139883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Throw05.png
+  artifactKey: Guid(119888da53616d747888cf59f6728602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/InventoryAsset/Icons/496_RPG_icons/W_Throw05.png using Guid(119888da53616d747888cf59f6728602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2880aae60d6e6b254ebbf6691b07a361') in 0.0515297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 830ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (86ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3990 unused Assets / (3.1 MB). Loaded Objects now: 4587.
+Memory consumption went from 118.5 MB to 115.4 MB.
+Total: 6.544800 ms (FindLiveObjects: 0.336800 ms CreateObjectMapping: 0.523700 ms MarkObjects: 3.755100 ms  DeleteObjects: 1.928200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.420 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 897ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (92ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3990 unused Assets / (3.1 MB). Loaded Objects now: 4587.
+Memory consumption went from 118.5 MB to 115.4 MB.
+Total: 5.873700 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.210600 ms MarkObjects: 3.484700 ms  DeleteObjects: 1.824500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling: 732ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (372ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (300ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (214ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Shader 'Fristy/Nature/Leaves': fallback shader 'TransparentCutout' not found
+Shader 'Fristy/Nature/Leaves 2': fallback shader 'TransparentCutout' not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3990 unused Assets / (2.9 MB). Loaded Objects now: 4587.
+Memory consumption went from 118.5 MB to 115.6 MB.
+Total: 5.471000 ms (FindLiveObjects: 0.278300 ms CreateObjectMapping: 0.173300 ms MarkObjects: 3.394400 ms  DeleteObjects: 1.623700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
